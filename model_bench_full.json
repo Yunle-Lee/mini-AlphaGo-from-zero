@@ -1,0 +1,152 @@
+{
+  "gpu_info": {
+    "temp": 47.0,
+    "power": 166.0,
+    "sclk": 129.0,
+    "mclk": 900.0,
+    "vram_pct": 0.0,
+    "total_vram": 191.7,
+    "rocm": "7.2.53211",
+    "pytorch": "2.10.0+git8514f05",
+    "cpu": 23,
+    "vram_pct_loaded": 10.0,
+    "power_loaded": 221.0,
+    "temp_loaded": 50.0,
+    "sclk_loaded": 551.0,
+    "mclk_loaded": 1300.0
+  },
+  "results": {
+    "prefill": {
+      "32": {
+        "prefill": 132.9,
+        "decode": 86.5
+      },
+      "64": {
+        "prefill": 212.5,
+        "decode": 87.0
+      },
+      "128": {
+        "prefill": 301.0,
+        "decode": 85.9
+      },
+      "256": {
+        "prefill": 558.9,
+        "decode": 83.7
+      },
+      "512": {
+        "prefill": 918.6,
+        "decode": 86.7
+      },
+      "1024": {
+        "prefill": 1201.7,
+        "decode": 84.4
+      },
+      "2048": {
+        "prefill": 1581.0,
+        "decode": 86.3
+      }
+    },
+    "decode": {
+      "32": {
+        "prefill": 72.8,
+        "decode": 86.7
+      },
+      "64": {
+        "prefill": 72.2,
+        "decode": 87.2
+      },
+      "128": {
+        "prefill": 72.9,
+        "decode": 87.6
+      },
+      "256": {
+        "prefill": 64.7,
+        "decode": 87.3
+      },
+      "512": {
+        "prefill": 72.8,
+        "decode": 87.2
+      },
+      "1024": {
+        "prefill": 70.8,
+        "decode": 87.3
+      }
+    },
+    "batch": {
+      "64": {
+        "prefill": 585.8,
+        "decode": 86.7
+      },
+      "128": {
+        "prefill": 696.9,
+        "decode": 86.1
+      },
+      "256": {
+        "prefill": 777.2,
+        "decode": 85.8
+      },
+      "512": {
+        "prefill": 947.2,
+        "decode": 87.0
+      },
+      "1024": {
+        "prefill": 902.2,
+        "decode": 87.2
+      },
+      "2048": {
+        "prefill": 941.2,
+        "decode": 86.4
+      }
+    },
+    "threads": {
+      "4": {
+        "prefill": 579.8,
+        "decode": 86.9
+      },
+      "8": {
+        "prefill": 581.3,
+        "decode": 86.4
+      },
+      "16": {
+        "prefill": 577.1,
+        "decode": 87.2
+      },
+      "23": {
+        "prefill": 583.9,
+        "decode": 87.5
+      }
+    },
+    "context": {
+      "512": {
+        "prefill": 346.5,
+        "decode": 87.3
+      },
+      "1024": {
+        "prefill": 343.1,
+        "decode": 86.9
+      },
+      "2048": {
+        "prefill": 346.0,
+        "decode": 87.0
+      },
+      "4096": {
+        "prefill": 349.0,
+        "decode": 87.1
+      },
+      "8192": {
+        "prefill": 339.2,
+        "decode": 87.1
+      },
+      "16384": {
+        "prefill": 342.6,
+        "decode": 87.6
+      }
+    },
+    "latency": {
+      "1": 21.77,
+      "4": 21.51,
+      "16": 22.42,
+      "64": 23.02
+    }
+  }
+}
